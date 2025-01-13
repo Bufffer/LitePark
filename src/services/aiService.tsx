@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = 'https://vision.googleapis.com/v1/images:annotate';
-const API_KEY = '9a6c8eaee33e7e8b5e17613b5b3140906758155f'; 
+const API_KEY = 'apiKEY'; 
 
 export const analyzeImage = async (imageBase64: string) => {
   try {

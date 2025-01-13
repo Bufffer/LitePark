@@ -34,7 +34,7 @@ export const ParkProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   // NPS API endpoint + sorgu parametresi
   // Burada kendi anahtarını ve istediğin limit'i ekle
-  const API_URL = `https://developer.nps.gov/api/v1/parks?limit=50&api_key=6ON0aNJYGfGuGjhoMwGUzg80gXg95gmpzBjAXGHr`;
+  const API_URL = `https://developer.nps.gov/api/v1/parks?limit=50&api_key=API_KEY`;
 
   useEffect(() => {
     const fetchParks = async () => {
